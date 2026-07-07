@@ -1,0 +1,365 @@
+2026.07.07 03:26:42 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.07 03:26:43 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:26:43 WARN  no build tool detected in workspace '/workspaces/30-days-of-code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.07.07 03:26:44 WARN  Build server is not auto-connectable.
+2026.07.07 03:26:43 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.java
+2026.07.07 03:26:43 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:26:46 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day0/main.java. Output:
+
+2026.07.07 03:26:46 INFO  time: code lens generation in 1.86s
+2026.07.07 03:27:24 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:27:24 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+Jul 07, 2026 3:27:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2026.07.07 03:27:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:27:25 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.java
+2026.07.07 03:27:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:27:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:27:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:17 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.java
+2026.07.07 03:28:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:36 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:36 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:36 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:28:36 INFO  Created report: Optional[file:///workspaces/30-days-of-code/Hackerrank/day0/main.java]
+2026.07.07 03:28:36 INFO  empty definition using pc, found symbol in pc: java/lang/System# (full report at: "/workspaces/30-days-of-code/.metals/.reports/metals-full/2026-07-07/r_empty-definition_03-28-36-483.md")
+Jul 07, 2026 3:29:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.file.NoSuchFileException: /workspaces/30-days-of-code/Hackerrank/day0/main.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:519)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:372)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$6(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:276)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:1736)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:1732)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:965)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:964)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:511)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+Jul 07, 2026 3:29:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+java.lang.IllegalStateException: An unexpected exception occurred while executing jsonrpc method public abstract java.util.concurrent.CompletableFuture scala.meta.metals.lsp.TextDocumentService.definition(org.eclipse.lsp4j.TextDocumentPositionParams)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:73)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: java.nio.file.NoSuchFileException: /workspaces/30-days-of-code/Hackerrank/day0/main.java
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(UnixFileSystemProvider.java:213)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:244)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:357)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:399)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:2973)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:38)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:18)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:519)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:372)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$6(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:276)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:1736)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:1732)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:965)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:964)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:511)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:65)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	... 11 more
+
+2026.07.07 03:30:15 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.java. Using fallback presentation compiler.
+2026.07.07 03:30:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:30:17 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/Solution.java
+2026.07.07 03:30:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+Jul 07, 2026 3:30:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2026.07.07 03:30:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:30:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:30:17 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:30:18 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:30:19 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:31:22 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:31:22 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:31:22 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:31:28 WARN  Could not find semantic tokens for: file:///workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:31:28 INFO  time: code lens generation in 5.13s
+2026.07.07 03:32:01 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:01 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:02 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:02 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:02 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:02 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:32:02 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:02 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Exception in thread "pool-9-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026.07.07 03:32:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:32:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Exception in thread "pool-12-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "pool-13-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026.07.07 03:32:25 INFO  Created report: Optional[file:///workspaces/30-days-of-code/Hackerrank/day0/main.scala]
+2026.07.07 03:32:25 INFO  empty definition using pc, found symbol in pc: scala/Predef.String# (full report at: "/workspaces/30-days-of-code/.metals/.reports/metals-full/2026-07-07/r_empty-definition_03-32-25-893.md")
+2026.07.07 03:35:05 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:35:05 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:35:05 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Exception in thread "pool-14-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026.07.07 03:35:05 INFO  empty definition using pc, found symbol in pc: scala/Predef.String# (full report at: "/workspaces/30-days-of-code/.metals/.reports/metals-full/2026-07-07/r_empty-definition_03-32-25-893.md")
+2026.07.07 03:36:51 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+Jul 07, 2026 3:37:34 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 07, 2026 3:37:38 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.07 03:38:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:38:09 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:38:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:38:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:38:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:39:14 INFO  Detected new build tool in /workspaces/30-days-of-code
+2026.07.07 03:39:14 WARN  no build tool detected in workspace '/workspaces/30-days-of-code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.07.07 03:39:14 WARN  Build server is not auto-connectable.
+2026.07.07 03:39:14 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Exception in thread "pool-19-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "pool-21-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "pool-22-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Exception in thread "pool-23-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026.07.07 03:40:26 INFO  Created report: Optional[file:///workspaces/30-days-of-code/Hackerrank/day0/main.scala]
+2026.07.07 03:40:26 INFO  empty definition using pc, found symbol in pc: scala/Array# (full report at: "/workspaces/30-days-of-code/.metals/.reports/metals-full/2026-07-07/r_empty-definition_03-40-27-257.md")
+2026.07.07 03:40:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:54 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:54 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:54 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:55 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:40:55 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:40:55 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:41:22 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:41:24 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:41:25 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:41:27 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:41:30 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:47:50 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Jul 07, 2026 3:47:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+2026.07.07 03:47:50 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+2026.07.07 03:47:50 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Jul 07, 2026 3:47:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+2026.07.07 03:47:50 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:47:51 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:47:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:47:53 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/Solution.java
+2026.07.07 03:47:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+Jul 07, 2026 3:47:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+2026.07.07 03:47:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+2026.07.07 03:47:56 INFO  time: code lens generation in 2.5s
+2026.07.07 03:47:57 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.07.07 03:47:57 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day0/main.scala
+Jul 07, 2026 3:47:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 143
+2026.07.07 03:47:57 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+Jul 07, 2026 3:47:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/30-days-of-code/Hackerrank/day0/Solution.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+Jul 07, 2026 3:48:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/30-days-of-code/Hackerrank/day0/Solution.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+2026.07.07 03:50:53 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day0/Solution.java. Using fallback presentation compiler.
+Jul 07, 2026 3:52:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/workspaces/30-days-of-code/Hackerrank/day0/Solution.class"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:210)
+	at java.base/java.nio.file.Paths.get(Paths.java:95)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+

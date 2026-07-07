@@ -1,0 +1,43 @@
+C++:
+
+g++ main.cpp -o programa
+./programa
+
+C#:
+
+dotnet run main.cs
+
+Python:
+
+python3 main.py
+
+Javascript(nodejs):
+
+node main.js
+
+C:
+
+gcc main.c -o programa 
+
+Cobol:
+
+cobc -x -free main.cbl
+./main
+
+Java:
+
+javac Solution.java
+java Solution
+
+Scala:
+
+scala main.scala
+
+Perl:
+
+perl main.pl
+
+Bash:
+
+chmod +x main.bash
+./main.bash
