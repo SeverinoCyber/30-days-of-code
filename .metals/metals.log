@@ -363,3 +363,32 @@ java.nio.file.FileSystemNotFoundException: Provider "class" not installed
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
 	at java.base/java.lang.Thread.run(Thread.java:1474)
 
+2026.07.07 04:01:28 INFO  Shutting down server
+2026.07.07 04:01:28 INFO  Memory monitor stopped
+2026.07.07 04:01:28 INFO  shutting down Metals
+2026.07.07 04:01:28 INFO  Exiting server
+2026.07.08 00:06:17 INFO  Started: Metals version 1.6.7 in folders '/workspaces/30-days-of-code' for client Visual Studio Code 1.127.0.
+2026.07.08 00:06:17 INFO  Memory monitor started
+2026.07.08 00:06:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.08 00:06:21 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:21 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:23 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:23 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day1/main.java
+2026.07.08 00:06:23 WARN  no build tool detected in workspace '/workspaces/30-days-of-code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Jul 08, 2026 12:06:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2026.07.08 00:06:23 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:23 WARN  Build server is not auto-connectable.
+2026.07.08 00:06:23 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day1/main.java
+2026.07.08 00:06:23 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+Jul 08, 2026 12:06:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2026.07.08 00:06:26 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+2026.07.08 00:06:27 INFO  time: code lens generation in 4.18s
+2026.07.08 00:06:30 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day1/main.java. Using fallback presentation compiler.
+Jul 08, 2026 12:10:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 08, 2026 12:48:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
