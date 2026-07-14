@@ -5,6 +5,7 @@ import os
 import random
 import re
 import sys
+from datetime import datetime
 
 #
 # Complete the 'solve' function below.
@@ -14,20 +15,44 @@ import sys
 #  2. INTEGER tip_percent
 #  3. INTEGER tax_percent
 #
+print("**************************")
+print("Sistema de facturacion AYD")
+print("************************** \n \n")
 
-def solve(meal_cost, tip_percent, tax_percent):
-    # Write your code here
-    tip_percent = meal_cost/100 * tip_percent 
-    tax_percent = tax_percent/100 * meal_cost
-    meal_cost = meal_cost + tip_percent + tax_percent 
-    print(round(meal_cost))
-  
-    return 0
-if __name__ == '__main__':
-    meal_cost = float(input().strip())
+name = input("Empecemos, por favor dime tu nombre: ")
+print(f"\nHola, {name} te doy la bienvenida a este sistema de facturacion.\n")
 
-    tip_percent = int(input().strip())
+while True:
+    num_products = int(input("¿Cuántos productos deseas registrar? (El minimo es 5): "))
+    
+    if num_products > 4:
+        break
+    else:
+        print("La cantidad debe ser un numero  mayor a 5. Intentalo de nuevo.\n")
+products = {}
+print(f"\nBien, ahora vas a registrar {num_products} productos:")
 
-    tax_percent = int(input().strip())
 
-    solve(meal_cost, tip_percent, tax_percent)
+for i in range(num_products):
+    product = input(f"\nNombre del producto {i+1}: ")
+    precio = float(input(f"Precio de {product} (Que sea decimal): $"))
+    
+    products[product] = precio
+
+suma_total = 0.0
+print("\n****** Aqui estan los productos que agregaste al sistema. ******")
+for product, precio in products.items():
+    propina = precio * (10 / 100)
+    impuesto = precio * (18 / 100)
+    precio_total = precio + propina + impuesto
+
+    print(f"- Producto:\n \n{product}: ${precio:.2f}")
+    print(f"- Propina Legal: ${round(propina, 2)}")
+    print(f"- ITBIS: ${round(impuesto, 2)}")
+    print(f"- Total: ${round(precio_total, 2)}\n")
+    suma_total += precio_total
+
+print(f"{name}, el total a pagar sera: {round(suma_total, 2)}")
+
+
+
