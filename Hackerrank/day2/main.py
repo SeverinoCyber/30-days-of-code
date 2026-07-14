@@ -16,11 +16,11 @@ from datetime import datetime
 #  3. INTEGER tax_percent
 #
 print("**************************")
-print("Sistema de facturacion AYD")
+print("Calculo de productos sumando propina e ITBIS")
 print("************************** \n \n")
 
 name = input("Empecemos, por favor dime tu nombre: ")
-print(f"\nHola, {name} te doy la bienvenida a este sistema de facturacion.\n")
+print(f"\nHola, {name} te doy la bienvenida a este programa.\n")
 
 while True:
     num_products = int(input("¿Cuántos productos deseas registrar? (El minimo es 5): "))
@@ -40,15 +40,18 @@ for i in range(num_products):
     products[product] = precio
 
 suma_total = 0.0
-print("\n****** Aqui estan los productos que agregaste al sistema. ******")
+print("********** Factura de productos **********\n")
+print(f"Fecha: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
+print(f"Nombre: {name}\n")
+
 for product, precio in products.items():
-    propina = precio * (10 / 100)
-    impuesto = precio * (18 / 100)
+    propina = precio * (12 / 100)
+    impuesto = precio * (20 / 100)
     precio_total = precio + propina + impuesto
 
     print(f"- Producto:\n \n{product}: ${precio:.2f}")
-    print(f"- Propina Legal: ${round(propina, 2)}")
-    print(f"- ITBIS: ${round(impuesto, 2)}")
+    print(f"- Propina Legal 10%: ${round(propina, 2)}")
+    print(f"- ITBIS 18%: ${round(impuesto, 2)}")
     print(f"- Total: ${round(precio_total, 2)}\n")
     suma_total += precio_total
 

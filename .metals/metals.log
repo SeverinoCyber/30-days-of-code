@@ -403,3 +403,78 @@ WARNING: Unmatched cancel notification for request id 24
 Jul 08, 2026 12:56:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 26
 
+2026.07.14 23:06:45 INFO  Started: Metals version 1.6.7 in folders '/workspaces/30-days-of-code' for client Visual Studio Code 1.128.1.
+2026.07.14 23:06:45 INFO  Memory monitor started
+2026.07.14 23:06:52 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.07.14 23:06:52 WARN  no build tool detected in workspace '/workspaces/30-days-of-code'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.07.14 23:06:53 WARN  Build server is not auto-connectable.
+2026.07.14 23:06:53 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day4/main.java
+2026.07.14 23:06:54 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day4/main.java. Output:
+
+2026.07.14 23:09:44 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:10:05 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day4/main.java
+2026.07.14 23:10:05 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:10:06 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day4/main.java. Output:
+
+2026.07.14 23:10:10 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:10:12 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:07 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:07 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+Jul 14, 2026 11:15:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2026.07.14 23:15:08 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+Jul 14, 2026 11:15:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2026.07.14 23:15:08 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day4/main.java. Output:
+
+2026.07.14 23:15:08 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:09 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day4/main.java
+Jul 14, 2026 11:15:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2026.07.14 23:15:08 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:09 INFO  Created report: Optional[file:///workspaces/30-days-of-code/Hackerrank/day4/main.java]
+2026.07.14 23:15:09 INFO  QDox parse error in file:///workspaces/30-days-of-code/Hackerrank/day4/main.java (full report at: "/workspaces/30-days-of-code/.metals/.reports/metals-full/2026-07-14/r_qdox-error_23-15-09-905.md")
+2026.07.14 23:15:12 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:12 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:12 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:14 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:14 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:14 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+Jul 14, 2026 11:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+2026.07.14 23:15:15 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+Jul 14, 2026 11:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+Jul 14, 2026 11:15:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2026.07.14 23:15:15 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:15 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:16 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:15 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:16 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day4/main.java. Output:
+
+2026.07.14 23:15:16 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day4/main.java
+2026.07.14 23:15:16 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:19 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:19 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:15:37 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day4/main.java. Using fallback presentation compiler.
+2026.07.14 23:17:06 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day5/main.java
+2026.07.14 23:17:06 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:17:06 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day5/main.java. Output:
+
+2026.07.14 23:17:08 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:17:08 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:17:08 WARN  Running javac-semanticdb failed for file:///workspaces/30-days-of-code/Hackerrank/day5/main.java. Output:
+
+2026.07.14 23:17:09 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:17:10 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day5/main.java
+2026.07.14 23:17:10 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:19:40 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:19:40 WARN  no build target for: /workspaces/30-days-of-code/Hackerrank/day5/main.java
+Jul 14, 2026 11:19:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2026.07.14 23:19:40 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+2026.07.14 23:20:07 INFO  no build target found for /workspaces/30-days-of-code/Hackerrank/day5/main.java. Using fallback presentation compiler.
+Jul 14, 2026 11:21:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
